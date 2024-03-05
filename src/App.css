@@ -1,0 +1,164 @@
+/* body{
+  font-family:Arial, Helvetica, sans-serif;
+  margin:0;
+  padding: 0;
+  background-color: bisque;
+}
+.container{
+  max-width: 600px;
+  background-color: #ccc;
+  padding: 20px;
+  margin: 50px auto;
+}
+h1,h2{
+  text-align: center;
+  color: blue;
+}
+.balance{
+  margin-bottom: 20px;
+}
+.balance h2{
+  color: green;
+}
+.transaction ul{
+   list-style: none;
+   padding: 0;
+
+}
+.transaction li{
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #888;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+.add-expense label,.add-expense input, .add-expense button{
+display: block;
+margin-bottom: 10px;
+
+}
+.add-expense button{
+  background-color: green;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.add-expenses input{
+  width:auto;
+  padding: 10px;
+
+}
+.add-expense button:hover{
+  background-color: blue;
+} */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  
+
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color:	#0a80a3;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.balance {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.balance h2 {
+  color:green;
+  font-size: 1.8em;
+}
+
+.transaction {
+  text-align: center;
+}
+
+.transaction h2 {
+  color:#75a0ea;
+  font-size: 1.8em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-expense {
+  text-align: center;
+}
+
+.add-expense h2 {
+  color: magenta;
+  font-size: 1.8em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-top: 15px;
+  color: #2c3e50;
+  font-size: 1.2em;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+button {
+  background-color:green;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+
+
